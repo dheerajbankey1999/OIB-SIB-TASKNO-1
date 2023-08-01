@@ -1,0 +1,441 @@
+@font-face {
+    font-family: Domain;
+    src: url(./Domain.ttf);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 154vh;
+    width: 100vw;
+    background-color:#C4BCB3;
+    position: relative;
+}
+ #nav{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    padding: 0 30px;
+    align-items: center;
+    border-bottom: 1px solid #222;
+
+  }
+ #nav img{
+    height: 29px;
+    width: 30%;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+} 
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+#elems {
+    /* background-color: red; */
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#elem1 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+
+
+}
+
+#elem2 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    border-right: 2px solid #acacac;
+    padding: 20px 60px;
+    text-align: center;
+    border-left: 2px solid #a5a5a5;
+}
+
+#elem3 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#elem1 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#image-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#elem3 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div:hover img {
+    scale: 1.1;
+}
+
+#elem1 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Canopee;
+}
+
+#elem1 h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem1 p {
+    font-size: 25px;
+    font-family: Domain;
+    font-weight: 100;
+    color: #656565;
+}
+
+#elem3 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Canopee;
+}
+
+#elem3 h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem3 p {
+    font-size: 23px;
+    font-family: Domain;
+    font-weight: 100;
+    color: #656565;
+}
+
+#elem2 h2 {
+    font-family: Canopee;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#elem2 h3 {
+    font-family: Domain;
+    font-size: 38px;
+    color: #605c5c;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+#elem2 h6 {
+    font-family: Domain;
+    font-size: 20px;
+    margin-top: 50px;
+    /* background-color: red; */
+    color:#605c5c ;
+    white-space: nowrap;
+    font-weight: 100;
+}
+#elem2 h6 span{
+    color:black;
+    font-size: 20px;
+    font-weight: 100;
+}
+#page1 h1 {
+    font-size: 518px;
+    letter-spacing: -25px;
+    font-weight: 100;
+    font-family: Canopee;
+    background-color: #1C1C19;
+    color: #C4BCB3;
+    line-height: 500px;
+    width: 96%;
+    margin-left: 2%;
+}
+#page2 {
+    height: 200vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 40px;
+}
+
+#page2-left {
+    height: 100%;
+    padding-right: 50px;
+    width: 35%;
+    /* background-color: red; */
+    border-right: 1px solid #4b4b4b;
+}
+#page2-left h2 {
+    font-size: 120px;
+    font-family: Canopee;
+    line-height: 150px;
+    font-weight: 100;
+}
+
+#page2-left h2 span {
+    font-size: 175px;
+    font-weight: 900;
+}
+
+#page2-left img {
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-left p {
+    font-size: 40px;
+    font-family: Domain;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+
+#page2-right {
+    height: 100%;
+    width: 70%;
+    padding: 0 60px;
+}
+
+#page2-right img {
+    height: 53%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#page2-right h1 {
+    font-family: Canopee;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+#page3 {
+    /* padding-bottom: 20px; */
+    position: relative;
+    background-color: #C4BCB3;
+}
+
+#page3 h1 {
+    font-size: 380px;
+    font-weight: 100;
+    letter-spacing: -10px;
+    background-color: #1C1C19;
+    width: fit-content;
+    color: #C4BCB3;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 380px;
+    font-family: Canopee;
+}
+
+#page3 img {
+    height: 370px;
+    position: absolute;
+    top: 0;
+    right: 2%;
+
+}
+#page4 {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #C4BCB3;
+}
+#page4-left{
+    width: 65%;
+    height: 100%;
+    /* padding:50px; */
+    /* border-right: 1px solid #4b4b4b ; */
+}
+#page4-left #lem{
+    width: 100%;
+    height:300px;
+    display: flex;
+    padding-top: 50px;
+
+}
+#page4-left #lem #lem1{
+      height: 100%;
+      width: 50%;
+        padding-left: 50px;
+      /* align-items: center; */
+      /* text-align: center; */
+      /* border-right:1px solid #4b4b4b ; */
+      }
+      #lem1 h1{
+        font-size: 45px;
+        font-weight: 200;
+        font-family: Domain;
+      }
+      #lem1 h5{
+        font-size: 35px;
+        margin-top: 20px;
+        font-family: Domain;
+
+      }
+      #lem1 p{
+       margin-top: 25px;
+       font-size: 20px;
+      }
+      #page4-left #lem #lem2{
+        height: 100%;
+        width: 50%;
+        padding: 0 30px;
+        border-left:1px solid #4b4b4b ;
+        border-right: 1px solid#4b4b46;
+      }
+      #lem #lem2image{
+        height: 150px;
+        width: 380px;
+        overflow: hidden;
+      }
+      #page4-left #lem #lem2 img{
+        height: 100%;
+        width: 100%;
+     
+        object-fit: cover;
+        transition: all ease 0.5s;
+      }
+      
+#lem #lem2:hover img {
+    scale: 1.1;
+}
+      #lem #lem2 h3{
+        font-family: Canopee;
+        letter-spacing: -3px;
+        font-weight: 150;
+        font-size: 30px;
+      }
+      #lem #lem2 p{
+        font-size: 17px;
+        margin-top: 5px;
+        /* padding: 0px 10px; */
+      }
+      #page4-left #unique {
+        height: 700px;
+        width: 100%;
+        padding: 40px 40px;
+        border-right:1px solid #4b4b4b;
+         }
+          
+         #page4-right {
+            width: 35%;
+            height: 100%;
+            padding: 80px 60px;
+            border-bottom: 1px solid#4b4b4b ;
+        }
+        
+        #page4-right p {
+            font-size: 34px;
+            font-family: Domain;
+            font-weight: 50;
+            color: #2f2f2f;
+            margin-bottom: 50px;
+            line-height: 30px;
+            margin-top: 20px;padding:30px 0;
+            
+        }
+        
+        #page4-right #anda {
+            height: 200px;
+            background-color: #CAC1B6;
+            border: 1px solid #2f2f2fc6;
+            border-radius: 50%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            overflow: hidden;
+        
+        }
+        
+        #anda h1 {
+            font-size: 75px;
+            font-weight: 100;
+            font-family: Canopee;
+            white-space: nowrap;
+            width: 100%;
+            height: 100%;
+            /* background-color: red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: translateX(-26%);
+            transition: all ease 0.6s;
+        }
+        
+        #anda img {
+            height: 60px;
+            transition: all ease 0.6s;
+        
+            transform: translateX(-120%);
+        }
+        
+        #anda:hover img {
+            transform: translateX(76%);
+        
+        }
+        
+        #anda:hover h1 {
+            transform: translateX(100%);
+        
+        }
+        #page4-right h1{
+            font-size: 75px;
+            font-family: Canopee;
+            white-space: nowrap;
+            color: #1C1C19
+
+        }
+        #page4-right h2{
+          font-weight: 100;
+          font-size: 100px;
+          font-family: Domain;
+          /* line-height: 400px; */
+          letter-spacing: -5px;
+          color: #1C1C19
+          
+        
+        }
